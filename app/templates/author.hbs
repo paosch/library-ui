@@ -13,7 +13,12 @@
 
   <ul class="collection">
     {{#each model as |author|}}
-      {{author-list-item first=author.first last=author.last tagName="li"}}
+      {{author-list-item 
+        authorId=author.id
+        first=author.first 
+        last=author.last 
+        tagName="li"
+      }}
     {{/each}}
   </ul>
 </div>
