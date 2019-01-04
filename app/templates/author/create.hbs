@@ -1,0 +1,42 @@
+<div class="slide-out-bg"></div>
+
+<div class="slide-out">
+  {{#link-to "author" class="btn-back"}}
+    <span class="sr-only">Back</span>
+  {{/link-to}}
+
+  <div class="slide-out-heading">
+    <div class="title">
+      <h3>New Author</h3>
+    </div>
+
+    <div class="slide-out-content">
+      <form>
+        <div class="field">
+          <label>First name: {{first}}</label>
+          {{input 
+            type="text" 
+            placeholder="First name" 
+            value=first
+          }}
+        </div>
+        <div class="field">
+          <label>Last name: {{last}}</label>
+          {{input 
+            type="text" 
+            placeholder="Last name" 
+            value=last
+          }}
+        </div>
+        <div class="field">
+          <label>Last name: {{last}}</label>
+          {{input 
+            type="text" 
+            placeholder="Last name" 
+            value=last
+          }}
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
