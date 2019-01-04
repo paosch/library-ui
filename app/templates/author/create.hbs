@@ -13,27 +13,19 @@
     <div class="slide-out-content">
       <form>
         <div class="field">
-          <label>First name: {{first}}</label>
+          <label>First name: {{model.first}}</label>
           {{input 
             type="text" 
             placeholder="First name" 
-            value=first
+            value=model.first
           }}
         </div>
         <div class="field">
-          <label>Last name: {{last}}</label>
+          <label>Last name: {{model.last}}</label>
           {{input 
             type="text" 
             placeholder="Last name" 
-            value=last
-          }}
-        </div>
-        <div class="field">
-          <label>Last name: {{last}}</label>
-          {{input 
-            type="text" 
-            placeholder="Last name" 
-            value=last
+            value=model.last
           }}
         </div>
       </form>
