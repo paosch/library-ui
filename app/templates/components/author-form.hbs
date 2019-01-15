@@ -1,0 +1,21 @@
+<form onsubmit={{ action "submitChanges"}}>
+  <div class="field">
+    <label>First name: {{author.first}}</label>
+    {{input 
+      type="text" 
+      placeholder="First name" 
+      value=first
+    }}
+  </div>
+  <div class="field">
+    <label>Last name: {{author.last}}</label>
+    {{input 
+      type="text" 
+      placeholder="Last name" 
+      value=last
+    }}
+  </div>
+  <div class="form-footer">
+    <button type="submit" class="btn-submit">save</button>
+  </div>
+</form>
