@@ -32,7 +32,9 @@
               onchange=(action (mut model.author))
               selected=model.author
               search=(action "searchAuthor")
-            as |author|}}
+              triggerClass="power-selected-element"
+            as |author|
+            }}
               {{author.last}}, {{author.first}}
             {{/power-select}}
           </p>

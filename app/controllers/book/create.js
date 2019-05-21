@@ -14,6 +14,6 @@ export default Controller.extend({
     },
     searchAuthor(query) {
       return this.store.query('author', { filter: { query } });
-    }
+    },
   }
 });
